@@ -1,3 +1,12 @@
+---
+layout: post
+title: "JavaScript 设计模式与开发实践"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [demo]
+tags: [demo, jekyll]
+redirect_from:
+  - /2017/05/27/
+---
 # 第一部分 基础知识
 ## 闭包
 ### 作用域
