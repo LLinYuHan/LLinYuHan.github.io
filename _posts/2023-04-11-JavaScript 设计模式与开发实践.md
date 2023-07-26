@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "JavaScript 设计模式与开发实践"
-description: "A quick demo of Simple Texture theme's code highlighting features"
-categories: [demo]
-tags: [demo, jekyll]
+description: "设计模式"
+categories: [JavaScript]
+tags: [JavaScript, jekyll]
 redirect_from:
   - /2017/05/27/
 ---
@@ -27,7 +27,7 @@ var f = func();
 经典应用 - es6 的话可以直接使用 let
 ```typescript
 for (var i = 0, len = nodes.length; i < len; i++) {
-	(function(i) {
+    (function(i) {
         nodes[i].onclick = function () {
             console.log(i);
         }
@@ -133,7 +133,7 @@ console.log(calculateBonous('a', 2000));
 缓存代理
 ```typescript
 let mult = function () {
-	let a = 1;
+    let a = 1;
     for (let i = 0, len = arguments.length; i < len; i++) {
         a = a * arguments[i];
     }
