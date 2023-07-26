@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Quick kramdown demo 林雨翰"
-description: "林雨翰"
+title: "Quick kramdown demo"
+description: ""
 categories: [demo]
 tags: [demo, jekyll]
 redirect_from:
@@ -15,7 +15,7 @@ redirect_from:
 
 # General Usage
 
-This is a normal paragraph. 林雨翰
+This is a normal paragraph.
 
 This is [a link](https://yizeng.me) to my homepage.
 A [link](https://yizeng.me/blog "Yi Zeng's Blog") can also have a title.

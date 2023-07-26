@@ -15,7 +15,7 @@ redirect_from:
 在闭包中，变量并不随着函数退出而销毁，这是因为外部还保存着对内部函数的引用；
 ```typescript
 var func = function () {
-	var a = 1;
+    var a = 1;
     return function () {
         a++;
         alert(a);
@@ -42,7 +42,7 @@ for (var i = 0, len = nodes.length; i < len; i++) {
 案例：解决通过 img 标签请求丢失的问题
 ```typescript
 var report = (function () {
-	var imgs = [];
+    var imgs = [];
     return function (src) {
         var img = new Image();
         imgs.push(img);
